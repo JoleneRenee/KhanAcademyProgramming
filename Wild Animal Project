@@ -1,0 +1,63 @@
+noStroke();
+
+fill(232, 213, 90);
+rect(284, 100, 6, 80); //tail
+
+fill(235, 121, 0);
+ellipse(287, 90, 20, 40);//tail hair
+
+fill(232, 213, 90);
+ellipse(200, 180, 180, 90); //body
+
+fill(235, 121, 0);
+ellipse(100, 136, 114, 106); //mane
+
+
+fill(232, 213, 90);
+ellipse(100, 136, 88, 80); //head
+
+fill(0);
+ellipse(122, 126, 7, 7);
+ellipse(78, 126, 7, 7); //eyes
+
+stroke(240, 67, 125);
+fill(232, 213, 90);
+ellipse(95, 149, 9, 9); //left
+ellipse(105, 149, 9, 9); //right
+noStroke();
+fill(232, 213, 90);
+rect(70, 140, 50, 7);//mouth
+
+fill(0);
+ellipse(100, 146, 5, 5);
+rect(97, 143, 6, 4); //nose
+
+fill(232, 213, 90);
+
+ellipse(128, 256, 12, 8); //left toe
+ellipse(128, 258, 12, 8); //middle toe
+ellipse(131, 260, 18, 8); //right toe
+//left foretoes
+
+rect(130, 205, 10, 56); //left foreleg
+
+ellipse(153, 267, 12, 8); //left toe
+ellipse(153, 269, 12, 8); //middle toe
+ellipse(156, 271, 18, 8); //right toe
+//right foretoes
+
+rect(155, 215, 10, 56); //right foreleg
+
+ellipse(238, 256, 12, 8); //left toe
+ellipse(238, 258, 12, 8); //middle toe
+ellipse(241, 260, 18, 8); //right toe
+//left hindtoes
+
+rect(240, 205, 10, 56); //left hindleg
+
+ellipse(263, 267, 12, 8); //left toe
+ellipse(263, 269, 12, 8); //middle toe
+ellipse(266, 271, 18, 8); //right toe
+//right hindtoes
+
+rect(265, 200, 10, 71); //right hindleg
